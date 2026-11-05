@@ -1,55 +1,11 @@
-# Calculadora de Edad 
+Proyecto: calculadora edad
 
-Una aplicación simple para calcular la edad en años, meses y días. Este proyecto contiene implementaciones en **C++** y **Python**.
+Integrantes: Leon Melgarejo
 
-##  Estructura del Proyecto
+Descripción: Repositorio con la suite de retos del taller de repaso general. Contiene entregables, manuales y evidencias.
 
-```
-├── .gitignore              
-├── README.md               
-├── LICENSE                 
-├── Docs/                   
-│  └── InformeProyectoCalculadoraEdad.pdf         
-├── Proyecto_CPP/           
-│  └── CalculadoraEdad.cpp  
-└── Proyecto_Python/        
-    └── CalculadoraEdad.py  
-```
+Estructura:
 
-##  Versión en C++
+docs/ : Entregables formales y manuales src/ : Código fuente en C++ con main unificado capturas/ : Evidencias de ejecución Cómo usar Compilar con g++:
 
-Para compilar y ejecutar:
-
-```bash
-cd Proyecto_CPP
-g++ -o CalculadoraEdad CalculadoraEdad.cpp
-./CalculadoraEdad
-```
-
-##  Versión en Python
-
-Para ejecutar:
-
-```bash
-cd Proyecto_Python
-python CalculadoraEdad.py
-```
-
-##  Características
-
-- Calcula la edad en años, meses y días
-- Validación de fechas
-- Implementación en dos lenguajes diferentes
-
-##  Documentación
-
-Consulta el archivo `Docs/InformeProyectoCalculadoraEdad.pdf` para más detalles sobre el proyecto.
-
-##  Licencia
-
-Este proyecto está bajo la licencia especificada en el archivo `LICENSE`.
-
----
-
-**Autor:** letan-doto07  
-**Fecha de creación:** 2026-08-27
+g++ -std=c++17 -O2 src/main.cpp -o bin/repasogeneral ./bin/repasogeneral
